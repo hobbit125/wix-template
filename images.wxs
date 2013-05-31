@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file is auto-generated from heat.exe.  Do not edit it directly-->
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLLOCATION">
+            <Directory Id="dir0175A23C577AA852461EFC2808C6487F" Name="images">
+                <Component Id="cmpAD0B4F599ACEE9C262081D7EEBCE2CFA" Guid="*">
+                    <File Id="filA08962BC5FA8FDF49D3602B16904C64D" KeyPath="yes" Source="SourceDir\stub.txt" />
+                </Component>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="images">
+            <ComponentRef Id="cmpAD0B4F599ACEE9C262081D7EEBCE2CFA" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>
