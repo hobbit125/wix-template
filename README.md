@@ -10,3 +10,5 @@ C:\Program Files (x86)\WiX Toolset v3.7
 
 If you have installed wix to a different location, you will need to update the wixproj file and the ps1 files
 in the scripts directory to reflect this.
+
+** NOTE: MAKE SURE YOU CHANGE ALL GUIDS WHEN USING THIS TO MAKE A NEW PROJECT **
